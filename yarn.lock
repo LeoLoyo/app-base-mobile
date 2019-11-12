@@ -7732,6 +7732,11 @@ react-native-modalbox@2.0.0:
   dependencies:
     prop-types "^15.5.10"
 
+react-native-music-control@0.10.7:
+  version "0.10.7"
+  resolved "https://registry.yarnpkg.com/react-native-music-control/-/react-native-music-control-0.10.7.tgz#6a88679671b94ab7e4be9afc00766ff10ab50b7d"
+  integrity sha512-4bxrPD4T10DDL05MpavEkktr37ejRt1ArFXMJ/jI2zsO+XXeZsOkAU45tEKCcwKgLmle/HmdK3BDodR3lvnX8A==
+
 react-native-orientation-locker@1.1.7:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/react-native-orientation-locker/-/react-native-orientation-locker-1.1.7.tgz#f027a9ff63f7e6ad89be430cf0a5723b6434ccf7"
@@ -9542,7 +9547,7 @@ xcode@^2.0.0:
     simple-plist "^1.0.0"
     uuid "^3.3.2"
 
-"xcode@github:rhdeck/cordova-node-xcode":
+xcode@rhdeck/cordova-node-xcode:
   version "2.2.1"
   resolved "https://codeload.github.com/rhdeck/cordova-node-xcode/tar.gz/b9580ef3f8434ad5bf83b8bf9383051f3f41b304"
   dependencies:

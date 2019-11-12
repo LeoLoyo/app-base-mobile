@@ -55,6 +55,7 @@
     "react-native-mediastream-ads": "git@github.com:mediastream/RNMediastreamGoogleAds.git#develop",
     "react-native-mediastream-player": "git+ssh://git@github.com/mediastream/RNMediastreamPlayer.git#v1.0.7",
     "react-native-modalbox": "2.0.0",
+    "react-native-music-control": "0.10.7",
     "react-native-orientation-locker": "1.1.7",
     "react-native-paper": "3.2.1",
     "react-native-progress": "4.0.1",
