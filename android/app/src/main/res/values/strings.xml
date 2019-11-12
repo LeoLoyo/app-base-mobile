@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ottMobileApp</string>
+    <string name="facebook_app_id">ottMobileApp</string>
 </resources>

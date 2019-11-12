@@ -184,6 +184,7 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.1.0-rc01'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02'
+    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
 
     if (enableHermes) {
         def hermesPath = "../../node_modules/hermes-engine/android/";
