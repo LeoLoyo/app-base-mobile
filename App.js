@@ -1,43 +1,35 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
-import Orientation from 'react-native-orientation-locker'
-import { MediastreamPlayer, MediastreamPlayerModules } from 'react-native-mediastream-player'
+import LinearGradient from 'react-native-linear-gradient';
 
 class HomeScreen extends React.Component {
-  componentDidMount(){
-    setTimeout(()=>{
-      
-      // this.props.navigation.navigate('Home2')
-    // Orientation.lockToLandscape()
-    }, 5000)
-  }
-  componentWillUnmount(){
-    MediastreamPlayerModules.dismissMediastreamPlayer()
+  componentDidMount() {
+    setTimeout(() => {
+      this.props.navigation.navigate('Home2')
+    }, 500)
   }
   render() {
     return (
-      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <MediastreamPlayer
-          style={{ width: '100%', height:'100%'}}
-          showControls
-          autoPlay
-          type="VOD"
-          environment="DEV"
-          live={false}
-          id="5db9ed49d9ca435ebc25c283"
-        />
+      <View>
+        <Text>OTTMobileApp</Text>
       </View>
     );
   }
 }
 class HomeScreen2 extends React.Component {
-  
+
   render() {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>Home Screen2</Text>
+        <LinearGradient colors={['#4c669f', '#3b5998', '#192f6a']} style={styles.linearGradient}>
+          <TouchableOpacity>
+          <Text style={styles.buttonText}>
+            Sign in with Facebook
+          </Text>
+          </TouchableOpacity>
+        </LinearGradient>
       </View>
     );
   }
@@ -53,3 +45,21 @@ const AppNavigator = createStackNavigator({
 });
 
 export default createAppContainer(AppNavigator);
+
+
+// Later on in your styles..
+var styles = StyleSheet.create({
+  linearGradient: {
+    paddingLeft: 15,
+    paddingRight: 15,
+    borderRadius: 5
+  },
+  buttonText: {
+    fontSize: 18,
+    fontFamily: 'Gill Sans',
+    textAlign: 'center',
+    margin: 10,
+    color: '#ffffff',
+    backgroundColor: 'transparent',
+  },
+});
