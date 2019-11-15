@@ -1,0 +1,7 @@
+export * from './LoginFormHandler'
+export * from './SignupFormHandler'
+export * from './RecoverPasswordFormHandler'
+export * from './SearchFormHandler'
+export * from './ContactFormHandler'
+export * from './NoopFormHandler'
+export * from './IntegratorSignupFormHandler'

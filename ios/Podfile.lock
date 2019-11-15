@@ -305,6 +305,8 @@ PODS:
     - React
   - react-native-voice (0.3.0):
     - React
+  - react-native-webview (7.5.1):
+    - React
   - React-RCTActionSheet (0.61.4):
     - React-Core/RCTActionSheetHeaders (= 0.61.4)
   - React-RCTAnimation (0.61.4):
@@ -372,9 +374,9 @@ PODS:
     - React
   - RNVectorIcons (6.6.0):
     - React
-  - SDWebImage (5.3.0):
-    - SDWebImage/Core (= 5.3.0)
-  - SDWebImage/Core (5.3.0)
+  - SDWebImage (5.3.1):
+    - SDWebImage/Core (= 5.3.1)
+  - SDWebImage/Core (5.3.1)
   - SDWebImageWebPCoder (0.2.5):
     - libwebp (~> 1.0)
     - SDWebImage/Core (~> 5.0)
@@ -409,6 +411,7 @@ DEPENDENCIES:
   - react-native-twitter-signin (from `../node_modules/react-native-twitter-signin`)
   - react-native-version-check (from `../node_modules/react-native-version-check`)
   - react-native-voice (from `../node_modules/react-native-voice`)
+  - react-native-webview (from `../node_modules/react-native-webview`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
   - React-RCTBlob (from `../node_modules/react-native/Libraries/Blob`)
@@ -507,6 +510,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-version-check"
   react-native-voice:
     :path: "../node_modules/react-native-voice"
+  react-native-webview:
+    :path: "../node_modules/react-native-webview"
   React-RCTActionSheet:
     :path: "../node_modules/react-native/Libraries/ActionSheetIOS"
   React-RCTAnimation:
@@ -596,6 +601,7 @@ SPEC CHECKSUMS:
   react-native-twitter-signin: 5b737eab225a0059e6f8fe93c893c864d020b8b9
   react-native-version-check: 7d578f3405cd9d673bbfd1225f727c87991e9ef9
   react-native-voice: 9829ac5dc9300687c5f215bddf6c9645e82923fc
+  react-native-webview: 2aadbfef6b9eaa9e89b306ae3e31e6e870a6306d
   React-RCTActionSheet: 7369b7c85f99b6299491333affd9f01f5a130c22
   React-RCTAnimation: d07be15b2bd1d06d89417eb0343f98ffd2b099a7
   React-RCTBlob: 8e0b23d95c9baa98f6b0e127e07666aaafd96c34
@@ -617,7 +623,7 @@ SPEC CHECKSUMS:
   RNShare: 8b171d4b43c1d886917fdd303bf7a4b87167b05c
   RNSVG: f6177f8d7c095fada7cfee2e4bb7388ba426064c
   RNVectorIcons: 0bb4def82230be1333ddaeee9fcba45f0b288ed4
-  SDWebImage: f1afa74b86587c2c63f4e80dfd39b21e3c17b45b
+  SDWebImage: 7137d57385fb632129838c1e6ab9528a22c666cc
   SDWebImageWebPCoder: 947093edd1349d820c40afbd9f42acb6cdecd987
   TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
   TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
