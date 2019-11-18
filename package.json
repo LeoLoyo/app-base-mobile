@@ -51,6 +51,7 @@
     "react-native-image-progress": "1.1.1",
     "react-native-keep-awake": "4.0.0",
     "react-native-keyboard-aware-scroll-view": "0.9.1",
+    "react-native-linear-gradient": "2.5.6",
     "react-native-mediastream-ads": "git+ssh://git@github.com:mediastream/RNMediastreamGoogleAds.git#develop",
     "react-native-mediastream-player": "git+ssh://git@github.com/mediastream/RNMediastreamPlayer.git#v1.0.7",
     "react-native-modalbox": "2.0.0",
