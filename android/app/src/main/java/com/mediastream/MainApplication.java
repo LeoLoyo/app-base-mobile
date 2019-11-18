@@ -1,4 +1,4 @@
-package com.ottmobileapp;
+package com.mediastream;
 
 import android.app.Application;
 import android.content.Context;
