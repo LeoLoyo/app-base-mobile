@@ -8,6 +8,7 @@ import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
+// import co.apptailor.googlesignin.RNGoogleSigninPackage;
 
 
 import java.lang.reflect.InvocationTargetException;
@@ -25,6 +26,7 @@ public class MainApplication extends Application implements ReactApplication {
         @Override
         protected List<ReactPackage> getPackages() {
           List<ReactPackage> packages = new PackageList(this).getPackages();
+          // packages.add(new RNGoogleSigninPackage());
           return packages;
         }
 

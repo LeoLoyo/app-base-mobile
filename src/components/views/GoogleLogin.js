@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { GoogleSignin } from 'react-native-google-signin'
+import { GoogleSignin } from '@react-native-community/google-signin'
 import { withApollo } from 'react-apollo'
 import firebase from 'react-native-firebase'
 import _get from 'lodash/get'

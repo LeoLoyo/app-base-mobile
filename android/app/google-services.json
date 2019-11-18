@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "387904699475",
+    "firebase_url": "https://win-sports-online.firebaseio.com",
+    "project_id": "win-sports-online",
+    "storage_bucket": "win-sports-online.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387904699475:android:be77254562e18c09",
+        "android_client_info": {
+          "package_name": "com.ottmobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387904699475-ibkpe30cdoffdilc8udkfg4eafdjlt4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQUcIbAgynkITbaB9zD0eTleUMZraG3Ao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387904699475-ibkpe30cdoffdilc8udkfg4eafdjlt4p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "387904699475-e5udl55mipmq1krji8dvcgfbc339c7pr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.winsportsonline.wso.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
