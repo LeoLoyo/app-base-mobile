@@ -5,11 +5,14 @@ import android.content.Context;
 
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
+import com.mediastream.player.RNMediastreamPlayerPackage;
 import com.pritesh.calldetection.CallDetectionManager;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
-
+import io.invertase.firebase.messaging.RNFirebaseMessagingPackage;
+import io.invertase.firebase.notifications.RNFirebaseNotificationsPackage;
+import io.invertase.firebase.database.RNFirebaseDatabasePackage;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
@@ -27,6 +30,11 @@ public class MainApplication extends Application implements ReactApplication {
         protected List<ReactPackage> getPackages() {
           List<ReactPackage> packages = new PackageList(this).getPackages();
           packages.add(new CallDetectionManager(MainApplication.this));
+          packages.add(new RNFirebaseMessagingPackage());
+          packages.add(new RNFirebaseNotificationsPackage());
+          packages.add(new RNFirebaseDatabasePackage());
+          packages.add(new RNMediastreamPlayerPackage());
+
           return packages;
         }
 
