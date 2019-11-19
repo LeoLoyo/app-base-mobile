@@ -31,7 +31,7 @@ local.properties
 .classpath
 .settings
 .project
-.hprof
+*.hprof
 
 # node.js
 #
